@@ -1,0 +1,26 @@
+
+.container{
+  display: grid;
+  grid-template-columns: 200px 150px;
+  grid-template-rows: repeat(3, auto);
+  gap: 10px;
+  background-color: #91a3ff;
+  padding: 20px;
+  border: 5px solid black;
+  width: max-content;
+  margin: auto;
+}
+
+.big-box{
+  width: 200px;
+  height: 100px;
+  background-color: #d96b6b;
+  border: 2px solid black;
+}
+
+.small-box{
+  width: 150px;
+  height: 100px;
+  background-color: #f4a42d;
+  border: 2px solid black;
+}
