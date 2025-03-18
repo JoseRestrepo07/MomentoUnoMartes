@@ -1,15 +1,12 @@
-import BigBox from "./BigBox";
-import SmallBox from "./SmallBox";
+import TopBottomContainer from "./TopBottomContainer";
+import MiddleContainer from "./MiddleContainer";
 
 const Container = () => {
     return (
     <div className="container">
-        <BigBox></BigBox>
-        <SmallBox></SmallBox>
-        <SmallBox></SmallBox>
-        <BigBox></BigBox>
-        <BigBox></BigBox>
-        <SmallBox></SmallBox>
+        <TopBottomContainer></TopBottomContainer>
+        <MiddleContainer></MiddleContainer>
+        <TopBottomContainer></TopBottomContainer>
     </div>
  );
 }
